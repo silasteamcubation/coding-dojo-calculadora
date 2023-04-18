@@ -37,5 +37,15 @@ public class CalculadoraTest {
         Calculadora calculadora = new Calculadora();
         assertThrows(RuntimeException.class,() -> calculadora.divisao(6,0));
 
+
     }
+
+    @Test
+    public void testeMultiplicacao() {
+
+        Calculadora calculadora = new Calculadora();
+        double resultado = calculadora.multiplicacao(6, 2);
+        assertEquals(12, resultado);
+    }
+
 }

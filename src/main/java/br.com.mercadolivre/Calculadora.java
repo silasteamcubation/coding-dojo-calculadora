@@ -13,9 +13,13 @@ public class Calculadora {
 
     public double divisao(double a, double b) {
         if (b == 0){
-
+        throw new RuntimeException();
         }
         return a/b;
+    }
+
+    public double multiplicacao(double a, double b) {
+        return a * b;
     }
 
 
