@@ -2,10 +2,7 @@ package br.com.mercadolivre;
 
 public class Calculadora {
 
-     public double soma() {
-        double a = 2;
-        double b = 3;
-
+     public double soma(double a, double b) {
         return a + b;
     }
 }
