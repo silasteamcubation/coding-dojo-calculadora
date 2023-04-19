@@ -27,6 +27,8 @@ public class Calculadora {
     }
 
     public double stringParaCalculo(String expressao) {
+        double subs = 0;
+        subs = stringParaCalculo(expressao.substring());
         return Double.parseDouble(expressao.substring(0, 1));
 
     }
