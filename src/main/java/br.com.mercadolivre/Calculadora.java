@@ -22,5 +22,10 @@ public class Calculadora {
         return a * b;
     }
 
+    public double restoDaDivisao(double a, double b) {
+        return a % b;
+    }
+
+
 
 }

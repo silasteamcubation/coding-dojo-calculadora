@@ -48,4 +48,11 @@ public class CalculadoraTest {
         assertEquals(12, resultado);
     }
 
+    @Test
+    public void testeRestoDivisao(){
+
+        Calculadora calculadora = new Calculadora();
+        double resultado = calculadora.restoDaDivisao(10, 3);
+        assertEquals(1, resultado);
+    }
 }
