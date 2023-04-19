@@ -26,6 +26,7 @@ public class Calculadora {
         return a % b;
     }
 
-
-
+    public double stringParaCalculo(String expressao) {
+        return 5;
+    }
 }
