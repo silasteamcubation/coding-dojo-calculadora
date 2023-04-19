@@ -1,5 +1,7 @@
 package br.com.mercadolivre;
 
+import java.awt.geom.Arc2D;
+
 public class Calculadora {
 
     public double soma(double a, double b) {
@@ -27,9 +29,12 @@ public class Calculadora {
     }
 
     public double stringParaCalculo(String expressao) {
-        double a = 2;
+        double a = expressao.substring(0, 1);
         double b = 3;
-        expressao.substring(0, 1);
         return a + b;
+
+
     }
+
+
 }
